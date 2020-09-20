@@ -1,0 +1,30 @@
+.site-nav {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav__item {
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+img {
+  width: 320px;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
